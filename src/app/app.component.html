@@ -1,0 +1,11 @@
+<p>
+  This is the concept to make customizable dashboard tiles
+</p>
+<div class="flex">
+  <vf-nav></vf-nav>
+  <router-outlet></router-outlet>
+</div>
+
+<pre *ngIf="state">
+{{ state | json }}
+</pre>

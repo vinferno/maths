@@ -1,0 +1,7 @@
+<section class="flex" [ngStyle]="getStyle(config)">
+  <vf-card *ngIf="config">
+    <div class="footer" [innerHTML]="config.text | safeHtml"></div>
+    <div class="footer" [innerHTML]="config.body"></div>
+    <div class="header">header</div>
+  </vf-card>
+</section>
