@@ -1,0 +1,165 @@
+            [DefaultValue("ACTIVELYATWORK")]
+            [Description(@"Is the employee and the employee's spouse if applying for life and/or accident with
+sickness disability rider actively at work now, for wage or profit, and has he/she worked
+at least 20 hours each week performing all duties of his/her regular occupation at his/her
+regular place of employment for at least the last 3 months except for minor illness or injury
+of 1 week or less, or normal pregnancy?")]
+            ACTIVELYATWORK = 0,
+            [DefaultValue("ACTIVELYATWORK_B")]
+            [Description(@"Is the employee and the employee's spouse if applying for life and/or accident with
+sickness disability rider actively at work now, for wage or profit, and has he/she worked
+at least 20 hours each week performing all duties of his/her regular occupation at his/her
+regular place of employment for at least the last 3 months except for minor illness or injury
+of 1 week or less, or normal pregnancy?")]
+            ACTIVELYATWORK_B,
+            [DefaultValue("SPOUSEACTIVELYATWORK")]
+            [Description(@"Is the employee and the employee's spouse if applying for life and/or accident with
+sickness disability rider actively at work now, for wage or profit, and has he/she worked
+at least 20 hours each week performing all duties of his/her regular occupation at his/her
+regular place of employment for at least the last 3 months except for minor illness or injury
+of 1 week or less, or normal pregnancy?")]
+            SPOUSEACTIVELYATWORK,
+            [DefaultValue("SPOUSEACTIVELYATWORK_B")]
+            [Description(@"Is the employee and the employee's spouse if applying for life and/or accident with
+sickness disability rider actively at work now, for wage or profit, and has he/she worked
+at least 20 hours each week performing all duties of his/her regular occupation at his/her
+regular place of employment for at least the last 3 months except for minor illness or injury
+of 1 week or less, or normal pregnancy?")]
+            SPOUSEACTIVELYATWORK_B,
+            [DefaultValue("AIDS")]
+            [Description(@"Has any person to be insured, in the last 5 years, been diagnosed with or treated by a
+member of the medical profession for Acquired Immune Deficiency Syndrome (AIDS), or
+AIDS Related Complex (ARC), or tested positive for antigens or antibodies to an AIDS virus?")]
+            AIDS,
+            [DefaultValue("HOSPDISABLED")]
+            [Description(@"Has any person to be insured, in the last 6 months, been disabled or hospitalized for
+anything other than normal pregnancy, lacerations or broken bones due to an accident?")]
+            HOSPDISABLED,
+            [DefaultValue("CHRONICDISEASE")]
+            [Description(@"Has any person to be insured, in the last 2 years, been diagnosed or treated by a member
+of the medical profession for any of the following?
+• Anemia (other than iron deficiency)
+• Anxiety, depression or other mental or
+nervous illness (that would include
+hospitalizations, disability from work, or
+suicide attempts)
+• Asthma (other than taking non-steroidal
+medication as needed with no
+hospitalizations), or any other lung disorder
+• Cancer, except basal cell carcinoma
+• Diabetes
+• Epilepsy with a seizure
+• Heart attack, cardiomyopathy, congestive
+heart failure, heart murmur (and taking
+medication(s)), angioplasty, coronary artery
+bypass surgery, coronary artery disease,
+stent, pacemaker, heart valve replacement
+or any other heart disorder
+• Hemophilia
+• Hepatitis
+• Kidney Disease involving dialysis or
+chronic renal failure
+• Liver Disease
+• Lou Gehrig's Disease (ALS)
+• Lupus
+• Multiple Sclerosis
+• Muscular Dystrophy
+• Parkinson's Disease, scleroderma,
+polymyositis, or fibromyalgia
+• Stroke including aneurysm, transient
+ischemic attack (TIA), or
+arteriovenous malformation
+• Transplant of any organ
+• Counseling for, or excessive use of,
+alcohol or any type of drugs")]
+            CHRONICDISEASE,
+            [DefaultValue("HBPDIAGNOSEDREADING")]
+            [Description(@"Has any person to be insured, in the last year, been diagnosed by a member of the
+medical profession with a systolic blood pressure reading higher than 150 more than once
+or a diastolic blood pressure reading higher than 100 more than once?")]
+            HBPDIAGNOSEDREADING,
+            [DefaultValue("DRIVING")]
+            [Description(@"Has any person to be insured, in the last 3 years: had his/her driver’s license suspended
+or revoked; been convicted of reckless or drunken driving; or been involved in 3 or more
+motor vehicle accidents?")]
+            DRIVING,
+            [DefaultValue("MEDPROCADVISED")]
+            [Description(@"Has any person to be insured, in the last 5 years, had any medical or surgical procedures
+(including organ transplant) advised or recommended by a member of the medical
+profession, but not done at this time?")]
+            MEDPROCADVISED,
+            [DefaultValue("HEIGHTWEIGHT")]
+            [Description("Provide Height and Weight")]
+            HEIGHTWEIGHT,
+            [DefaultValue("PHYSICIANS")]
+            [Description(@"Provide the names and addresses of all physicians (or other members of the medical profession) for each person to be insured;
+the required health history section may be used if additional space is needed.")]
+            PHYSICIANS,
+            [DefaultValue("HEALTHHISTORY")]
+            [Description(@"Provide health history for any “Yes” answers to the Underwriting questions. Include physician’s (or other members of the
+medical profession) name, address and telephone number:")]
+            HEALTHHISTORY,
+            [DefaultValue("EXISTINGCOVERAGE")]
+            [Description("Are you applying for coverage or changing coverage due to qualifying event?")]
+            EXISTINGCOVERAGE,
+            [DefaultValue("QUALIFYINGEVENT")]
+            [Description("If \"Yes\", check the qualifying event:")]
+            QUALIFYINGEVENT,
+            [DefaultValue("COMPREHENSIVEHEALTHBENF")]
+            [Description(@"Do you currently have any of the following Individual coverages with American Heritage Life Insurance Company (AHL)?
+            • Accident Cancer
+            • Critical Illness
+            • Disability
+            • Hospital Indemnity")]
+            COMPREHENSIVEHEALTHBENF,
+            [DefaultValue("COMPREHENSIVEHEALTHBENFRESPONSE")]
+            [Description("If you answered “Yes”, please enter the Policy Number")]
+            COMPREHENSIVEHEALTHBENFRESPONSE,
+            [DefaultValue("TOBACCOUSE")]
+            [Description(@"Has the employee used tobacco in the last 12 months? (**If applying for Life or Critical Illness.")]
+            TOBACCOUSE,
+            [DefaultValue("SPOUSETOBACCOUSE")]
+            [Description(@"Has the Spouse used tobacco in the last 12 months? (**If applying for Life or Critical Illness.")]
+            SPOUSETOBACCOUSE,
+            [DefaultValue("DEPENDENTTOBACCO")]
+            [Description(@"Has any adult (19 and older) person to be insured used tobacco in the last 12 months? (**If applying for Life or Critical Illness. ^For dependents ages 19 and
+older, if applying for Life.)")]
+            DEPENDENTTOBACCO,
+            [DefaultValue("CHGRANDCHFTSTUDENT")]
+            [Description("Is the Child or Grandchild proposed for coverage a full time student?")]
+            CHGRANDCHFTSTUDENT,
+            [DefaultValue("CHGRANDCHACTIVEWK")]
+            [Description(@"If the answer is no and the Child or Grandchild is 19 or over, is he or she actively at work now, for wage or profit, and has he/she
+worked at least 20 hours each week performing all duties of his/her regular occupation at his/her regular place of employment for
+at least the last 3 months except for minor illness or injury of 1 week or less, or normal pregnancy?")]
+            CHGRANDCHACTIVEWK,
+            [DefaultValue("REPLACEMENT")]
+            [Description(@"Replacement. Proposed Insured. Is this insurance to replace or change any existing life coverage?")]
+            REPLACEMENT,
+            [DefaultValue("REPLACEMENTRESPONSE")]
+            [Description(@"If yes, indicate product being replaced or changed and complete replacement form provided by your producer, if
+required by your state.")]
+            REPLACEMENTRESPONSE,
+            [DefaultValue("AGENTREPLACEMENT")]
+            [Description("Producer. To your knowledge, is change or replacement involved?")]
+            AGENTREPLACEMENT,
+            [DefaultValue("EXISTINGINSURANCE")]
+            [Description(@"Existing Insurance. Proposed Insured. Is there any other (not listed in Question 1a.) life insurance in force or
+applied for on the proposed insured?")]
+            EXISTINGINSURANCE,
+            [DefaultValue("EXISTINGINSURANCERESPONSE")]
+            [Description(@"If yes, list company name, policy number, year issued, type of coverage, and amount of benefit.")]
+            EXISTINGINSURANCERESPONSE,
+            [DefaultValue("AGENTEXISTING")]
+            [Description("Producer. To your knowledge, does the proposed insured have existing coverage in force?")]
+            AGENTEXISTING,
+            [DefaultValue("ILLUSTRATIONCERT1")]
+            [Description(@"Illustration Certification. Owner. The owner certifies that no illustration conforming to the coverage applied for
+was provided, but that an illustration conforming to the coverage issued will be provided upon delivery of the
+certificate. If no, complete the applicable illustration certification form provided, if required in your state.")]
+            ILLUSTRATIONCERT1,
+            [DefaultValue("AGENTNAIC")]
+            [Description(@"Producer. The Producer certifies that no illustration conforming to the coverage applied for was provided, but
+that an illustration conforming to the coverage issued will be provided upon delivery of the certificate. If no,
+complete the applicable illustration certification form provided, if required in your state.")]
+            AGENTNAIC,
